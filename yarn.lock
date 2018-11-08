@@ -83,6 +83,15 @@
     u2f-api "0.0.9"
     u2f-api-polyfill "0.4.3"
 
+"@parity/ledger@~2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@parity/ledger/-/ledger-2.1.3.tgz#e5eb67eac6ed8a7181b45cf49d3cc4a140b1a667"
+  dependencies:
+    bignumber.js "4.1.0"
+    ethereumjs-tx "^1.2.5"
+    u2f-api "0.0.9"
+    u2f-api-polyfill "0.4.3"
+
 "@parity/shared@2.2.x":
   version "2.2.20"
   resolved "https://registry.yarnpkg.com/@parity/shared/-/shared-2.2.20.tgz#f0ecf669751f8a80e3e8743d33b370633858f1c2"
@@ -99,6 +108,24 @@
     redux-thunk "2.1.0"
     scryptsy "2.0.0"
     solc ngotchac/solc-js
+    useragent.js "^0.5.6"
+    yargs "6.6.0"
+
+"@parity/shared@3.0.x":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@parity/shared/-/shared-3.0.2.tgz#458a68c921a361a5b148aaed4e9a5e610ebc7082"
+  dependencies:
+    "@parity/ledger" "~2.1.3"
+    bignumber.js "4.1.0"
+    eventemitter3 "^2.0.3"
+    loglevel "1.4.1"
+    push.js "0.0.11"
+    react-redux "4.4.6"
+    redux "3.6.0"
+    redux-actions "1.1.0"
+    redux-thunk "2.1.0"
+    scryptsy "2.0.0"
+    solc "github:ngotchac/solc-js"
     useragent.js "^0.5.6"
     yargs "6.6.0"
 
@@ -5445,7 +5472,7 @@ sntp@1.x.x:
   dependencies:
     hoek "2.x.x"
 
-solc@ngotchac/solc-js:
+"solc@github:ngotchac/solc-js", solc@ngotchac/solc-js:
   version "0.4.4"
   uid "04eb38cc3003fba8cb3656653a7941ed36408818"
   resolved "https://codeload.github.com/ngotchac/solc-js/tar.gz/04eb38cc3003fba8cb3656653a7941ed36408818"
