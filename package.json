@@ -19,7 +19,7 @@
   "devDependencies": {
     "@parity/api": "^2.1.15",
     "@parity/shared": "3.0.x",
-    "@parity/ui": "2.2.x",
+    "@parity/ui": "3.1.x",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
