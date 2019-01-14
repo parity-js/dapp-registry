@@ -100,9 +100,9 @@
     js-sha3 "0.5.5"
     utf8 "^2.1.2"
 
-"@parity/abi@^3.0.13":
-  version "3.0.13"
-  resolved "https://registry.yarnpkg.com/@parity/abi/-/abi-3.0.13.tgz#66740b4365f781995bcc7644eb0c740af1ad5dce"
+"@parity/abi@^3.0.25":
+  version "3.0.25"
+  resolved "https://registry.yarnpkg.com/@parity/abi/-/abi-3.0.25.tgz#450d5ded7413efb7543ff45aa9fa95abca697e20"
   dependencies:
     bignumber.js "^8.0.1"
     js-sha3 "0.7.0"
@@ -125,11 +125,11 @@
     lodash "^4.17.4"
     store "^2.0.12"
 
-"@parity/api@^3.0.13":
-  version "3.0.13"
-  resolved "https://registry.yarnpkg.com/@parity/api/-/api-3.0.13.tgz#bf9f7fe05c398f30451df8410499c47c20bb516f"
+"@parity/api@^3.0.25":
+  version "3.0.25"
+  resolved "https://registry.yarnpkg.com/@parity/api/-/api-3.0.25.tgz#f0e5736d4ec0b1cb0bcd9690954a521675b4700b"
   dependencies:
-    "@parity/abi" "^3.0.13"
+    "@parity/abi" "^3.0.25"
     bignumber.js "^8.0.1"
     blockies "0.0.2"
     es6-error "4.0.2"
@@ -3844,11 +3844,7 @@ lodash@^3.6.0:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@^4.13.1, lodash@^4.14.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.2.1:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
-
-lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.5:
+lodash@^4.13.1, lodash@^4.14.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.2.1:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
