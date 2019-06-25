@@ -809,9 +809,9 @@ babel-plugin-check-es2015-constants@^6.22.0:
   dependencies:
     babel-runtime "^6.22.0"
 
-babel-plugin-react-intl@3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/babel-plugin-react-intl/-/babel-plugin-react-intl-3.3.2.tgz#66b14015e9d5079715dad82ddf90e98f20f71c54"
+babel-plugin-react-intl@3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-intl/-/babel-plugin-react-intl-3.3.3.tgz#108c2c67b0acece72834f08c850d09616b7cc649"
   dependencies:
     "@babel/core" "^7.4.5"
     "@babel/helper-plugin-utils" "^7.0.0"
