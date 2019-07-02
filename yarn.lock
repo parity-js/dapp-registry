@@ -175,9 +175,9 @@
     js-sha3 "0.5.5"
     utf8 "^2.1.2"
 
-"@parity/abi@^5.1.6":
-  version "5.1.6"
-  resolved "https://registry.yarnpkg.com/@parity/abi/-/abi-5.1.6.tgz#622e4d77912e106c885d78fcf2ecbaefd4cb88a4"
+"@parity/abi@^5.1.7":
+  version "5.1.7"
+  resolved "https://registry.yarnpkg.com/@parity/abi/-/abi-5.1.7.tgz#f793321b9d6b655795dbc5ac0789b9d81c1aa144"
   dependencies:
     bignumber.js "^8.0.1"
     js-sha3 "0.8.0"
@@ -200,11 +200,11 @@
     lodash "^4.17.4"
     store "^2.0.12"
 
-"@parity/api@^5.1.6":
-  version "5.1.6"
-  resolved "https://registry.yarnpkg.com/@parity/api/-/api-5.1.6.tgz#6d19dc01ee70f6e5194564c0ab288776b131d81a"
+"@parity/api@^5.1.7":
+  version "5.1.7"
+  resolved "https://registry.yarnpkg.com/@parity/api/-/api-5.1.7.tgz#8a6c02d00e1230df0aad62b4931f84ea4b5c390f"
   dependencies:
-    "@parity/abi" "^5.1.6"
+    "@parity/abi" "^5.1.7"
     bignumber.js "^8.0.1"
     blockies "0.0.2"
     es6-error "4.0.2"
