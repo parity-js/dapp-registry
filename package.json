@@ -22,7 +22,7 @@
     "@parity/ui": "2.2.x",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-eslint": "^10.0.2",
+    "babel-eslint": "^10.0.3",
     "babel-loader": "^7.1.5",
     "babel-plugin-react-intl": "4.1.14",
     "babel-plugin-transform-class-properties": "^6.24.1",
