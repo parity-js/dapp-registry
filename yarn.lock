@@ -180,15 +180,16 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@formatjs/intl-unified-numberformat@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@formatjs/intl-unified-numberformat/-/intl-unified-numberformat-3.0.1.tgz#a0bf05760f20833aaa3dcf4d0f791c8c6eb758fc"
+"@formatjs/intl-unified-numberformat@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@formatjs/intl-unified-numberformat/-/intl-unified-numberformat-3.0.2.tgz#0485443ab4b4c8d6a2a7fc48dc88fad75da9b18c"
   dependencies:
-    "@formatjs/intl-utils" "^2.0.1"
+    "@formatjs/intl-utils" "^2.0.2"
+    unicode-12.1.0 "0.8"
 
-"@formatjs/intl-utils@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@formatjs/intl-utils/-/intl-utils-2.0.1.tgz#6d310808e34b60184564cf3800526f012eb9d622"
+"@formatjs/intl-utils@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@formatjs/intl-utils/-/intl-utils-2.0.2.tgz#5861bc4be8cdd06484a713122026d1e4065849eb"
 
 "@parity/abi@2.1.x":
   version "2.1.2"
@@ -850,16 +851,16 @@ babel-plugin-check-es2015-constants@^6.22.0:
   dependencies:
     babel-runtime "^6.22.0"
 
-babel-plugin-react-intl@5.1.13:
-  version "5.1.13"
-  resolved "https://registry.yarnpkg.com/babel-plugin-react-intl/-/babel-plugin-react-intl-5.1.13.tgz#bde0ab1006a813480bf15413e104aa5b14696639"
+babel-plugin-react-intl@5.1.14:
+  version "5.1.14"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-intl/-/babel-plugin-react-intl-5.1.14.tgz#ca426b18f8a4dda7a7cc2fae9746a4c1a87c6e8f"
   dependencies:
     "@babel/core" "^7.7.2"
     "@babel/helper-plugin-utils" "^7.0.0"
     "@types/babel__core" "^7.1.3"
     "@types/schema-utils" "^1.0.0"
     fs-extra "^8.0.1"
-    intl-messageformat-parser "^3.5.3"
+    intl-messageformat-parser "^3.6.0"
     schema-utils "^2.2.0"
 
 babel-plugin-syntax-async-functions@^6.8.0:
@@ -3578,11 +3579,11 @@ intl-messageformat-parser@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/intl-messageformat-parser/-/intl-messageformat-parser-1.2.0.tgz#5906b7f953ab7470e0dc8549097b648b991892ff"
 
-intl-messageformat-parser@^3.5.3:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/intl-messageformat-parser/-/intl-messageformat-parser-3.5.3.tgz#c9d9cba1ea75792dbb9d143b6f098b495becc6f0"
+intl-messageformat-parser@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/intl-messageformat-parser/-/intl-messageformat-parser-3.6.0.tgz#acd98e27ef1e62e684ca8f719fc29cc667390884"
   dependencies:
-    "@formatjs/intl-unified-numberformat" "^3.0.1"
+    "@formatjs/intl-unified-numberformat" "^3.0.2"
 
 intl-messageformat@1.3.0, intl-messageformat@^1.3.0:
   version "1.3.0"
@@ -6358,6 +6359,10 @@ uglifyjs-webpack-plugin@^0.4.6:
 uid-number@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/uid-number/-/uid-number-0.0.6.tgz#0ea10e8035e8eb5b8e4449f06da1c730663baa81"
+
+unicode-12.1.0@0.8:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/unicode-12.1.0/-/unicode-12.1.0-0.8.0.tgz#260f6dd899eefd42a8eae550bcbb62654c90c79d"
 
 uniq@^1.0.1:
   version "1.0.1"
